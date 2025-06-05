@@ -62,7 +62,7 @@ Prerequisites
 # Setup Instructions
 
 Clone the repository:
-git clone https://github.com/yourusername/ZeroTrustOps-ZT-COT.git
+git clone https://github.com/srivarshini-karthikeyan/ZeroTrustOps-ZT-COT.git
 cd ZeroTrustOps-ZT-COT
 
 Install all dependencies:
@@ -85,7 +85,7 @@ ZeroTrustOps-ZT-COT follows the core principles of Zero Trust Security:
 2. Apply least privilege access
 3. Continuously monitor and log activity
 
-Assume breach and design accordingly
+Assume breach and design accordingly: 
 This toolkit enables users to simulate attacks, monitor system behavior, and enforce zero trust principles in a controlled environment.
 
 # Legal Disclaimer
