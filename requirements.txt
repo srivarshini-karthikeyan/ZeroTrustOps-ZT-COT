@@ -1,0 +1,78 @@
+# ================================
+# ZeroTrustOps-ZT-COT - Requirements File
+# Developed by: Srivarshini K & Poorvaa Sri B
+# ================================
+
+# --------------------------------
+# 1. PYTHON PACKAGE DEPENDENCIES
+# --------------------------------
+# Install using: pip install -r requirements.txt
+
+colorama>=0.4.6
+scapy>=2.5.0
+matplotlib>=3.7.0
+seaborn>=0.12.2
+pandas>=2.0.0
+requests>=2.31.0
+psutil>=5.9.5
+flask>=2.3.0
+tabulate>=0.9.0
+rich>=13.4.0
+beautifulsoup4>=4.12.2
+lxml>=4.9.2
+regex>=2023.3.23
+
+# --------------------------------
+# 2. HARDWARE REQUIREMENTS
+# --------------------------------
+
+# Minimum:
+# - Processor: Dual-core 2.0 GHz
+# - RAM: 4 GB
+# - Storage: 500 MB available space
+# - Display: Basic console display
+# - Network: Optional (for offline modules)
+
+# Recommended:
+# - Processor: Quad-core 2.5 GHz or higher
+# - RAM: 8 GB or more
+# - Storage: 1 GB SSD available
+# - Display: Console + graphical interface
+# - Network: Required for threat intelligence modules
+
+# --------------------------------
+# 3. SOFTWARE REQUIREMENTS
+# --------------------------------
+
+# - Operating System:
+#     - Linux (Ubuntu 20.04+, Kali Linux, Debian)
+#     - Windows 10 or later
+#     - macOS 11 or later (limited packet sniffing support)
+#
+# - Python Version:
+#     - Python 3.7 or higher
+#
+# - Terminal:
+#     - Must support ANSI color codes (e.g., GNOME Terminal, Windows Terminal, iTerm2)
+#
+# - Privileges:
+#     - Some tools (packet sniffer, firewall config, MAC detector) require admin/root access
+#
+# - Optional:
+#     - Web browser (to view dashboard reports if exported)
+
+# --------------------------------
+# 4. INSTALLATION INSTRUCTIONS
+# --------------------------------
+
+# 1. Clone the repository:
+#    git clone https://github.com/yourusername/ZeroTrustOps-ZT-COT.git
+#    cd ZeroTrustOps-ZT-COT
+
+# 2. Install all dependencies:
+#    pip install -r requirements.txt
+
+# 3. Run the main program:
+#    python main.py
+
+# Ensure you run the script with sufficient privileges (e.g., sudo on Linux) for full functionality.
